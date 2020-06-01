@@ -7,7 +7,7 @@
         <%= devise_error_messages! %>
 
         <h4 class="subtitle is-3">Account Activation<% if resource.try(:user_name) %> for <%= resource.user_name %><% end %></h4>
-        
+
         <% if @requires_password %>
           <div class="field">
             <div class="control">
@@ -24,6 +24,7 @@
         <% end %>
 
         <%= hidden_field_tag :confirmation_token, @confirmation_token %>
+        
         <div class="field">
           <div class="control">
             <%= f.submit "Activate", class: 'button is-link' %>
