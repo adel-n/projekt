@@ -16,6 +16,7 @@
 				</div>
 			</div>
 			<hr />
+			
 			<% @projects.each do |project| %>
 				<div class="content border-bottom pb4">
 					<p class="title is-4">
@@ -42,6 +43,7 @@
 				</div>
 			</div>
 			<hr />
+
 			<% @teams.each do |team| %>
 				<div class="content border-bottom pb4">
 					<p class="title is-4">
@@ -58,7 +60,7 @@
 			<h3 class="subtitle is-5">Activity</h3>
 			<hr />
 			<ul class="list">
-				Activity Items
+				<%= render_activities(@activities) %>
 			</ul>
 		</div>
 	

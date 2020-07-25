@@ -276,7 +276,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.4)
   figaro
-  font-awesome-sass (~> 5.13)
+  font-awesome-sass (~> 5.13.0)
   gravatar_image_tag (~> 1.2)
   guard (~> 2.14, >= 2.14.1)
   guard-livereload (~> 2.5, >= 2.5.2)
